@@ -1,0 +1,39 @@
+.navbar__container{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.MuiPaper-root{
+    background: var(--secondary-bg-color) !important;
+}
+a{
+    text-decoration: none;
+    padding: 4px 10px ;
+
+}
+.MuiButtonBase-root{
+}
+.navlink__container{
+color: black;
+padding: 4px 10px !important;
+}
+
+.active{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.drawer__container{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 60vh;
+}
+
+.navbar__navLink{
+    color: white;
+}
