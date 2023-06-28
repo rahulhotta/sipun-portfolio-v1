@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 import "./NavBar.css";
-import Link from 'next/link';
+import Link from "next/link";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -17,8 +18,8 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import Drawer from "@mui/material/Drawer";
 
-
 const Navbar = () => {
+  const pathname = usePathname();
   const pages = [
     { name: "Home", path: "/" },
     { name: "About", path: "About" },
@@ -42,7 +43,7 @@ const Navbar = () => {
   };
 
   return (
-    <div >
+    <div>
       <AppBar position="static" className="navbar__container">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
@@ -80,18 +81,22 @@ const Navbar = () => {
               <Drawer anchor={"left"} open={drawerState} onClose={toggleDrawer}>
                 <div className="drawer__container">
                   {pages.map((page) => (
-                    <Link
-                      href={page.path}
-                      className={({ isActive }) =>
-                        isActive
-                          ? "navlink__container active"
-                          : "navlink__container inactive"
-                      }
-                    >
-                      <MenuItem key={page.name} onClick={toggleDrawer}>
-                        {page.name}
-                      </MenuItem>
-                    </Link>
+                    <Button
+                    key={page.name}
+                    onClick={toggleDrawer}
+                    className={
+                      pathname == `/${page.path}`
+                        ? "active"
+                        : "" || pathname == `${page.path}`
+                        ? "active"
+                        : ""   
+                    }>
+                      <Link href={page.path} className="navbar__navLink">
+                        
+                          {page.name}
+                        
+                      </Link>
+                    </Button>
                   ))}
                 </div>
               </Drawer>
@@ -126,8 +131,17 @@ const Navbar = () => {
                   key={page.name}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
+                  className={
+                      pathname == `/${page.path}`
+                        ? "active"
+                        : "" || pathname == `${page.path}`
+                        ? "active"
+                        : ""
+                    }
                 >
-                  <Link href={page.path} className="navbar__navLink">{page.name}</Link>
+                    <Link href={page.path} className="navbar__navLink">
+                      {page.name}
+                    </Link>
                 </Button>
               ))}
             </Box>

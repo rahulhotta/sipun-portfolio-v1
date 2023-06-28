@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 :root{
-  --primary-bg-color : rgb(236, 244, 255);
-  --secondary-bg-color : linear-gradient(135deg, rgb(102, 126, 234) 0%, rgb(118, 75, 162) 100%);
+  --primary-bg-color : #E6F4F1;
+  /* --secondary-bg-color : linear-gradient(135deg, rgb(102, 126, 234) 0%, rgb(118, 75, 162) 100%); */
+  --secondary-bg-color : #4bccff;
   --primary-fg-color : Black;
-  --secondary-fg-color : White;
+  --secondary-fg-color : #003962;
   --primary-box-shadow  :   rgba(102, 126, 234, 0.4) -5px 5px, rgba(118, 75, 162, 0.3) -10px 10px, rgba(118, 75, 162, 0.2) -15px 15px, rgba(118, 75, 162, 0.1) -20px 20px, rgba(118, 75, 162, 0.05) -25px 25px;
 }
 body{
