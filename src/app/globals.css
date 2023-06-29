@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 :root{
-  --primary-bg-color : #E6F4F1;
-  /* --secondary-bg-color : linear-gradient(135deg, rgb(102, 126, 234) 0%, rgb(118, 75, 162) 100%); */
-  --secondary-bg-color : #4bccff;
-  --primary-fg-color : Black;
-  --secondary-fg-color : #003962;
-  --primary-box-shadow  :   rgba(102, 126, 234, 0.4) -5px 5px, rgba(118, 75, 162, 0.3) -10px 10px, rgba(118, 75, 162, 0.2) -15px 15px, rgba(118, 75, 162, 0.1) -20px 20px, rgba(118, 75, 162, 0.05) -25px 25px;
+  --primary-bg-color : rgb(44, 51, 51);
+  /* --secondary-bg-color : linear-gradient(135deg, rgb(203, 228, 222) 0%, rgb(203, 228, 222) 100%); */
+  --secondary-bg-color : rgb(46, 79, 79);
+  --tertiary-bg-color : rgb(14, 131, 136);
+  --primary-fg-color : rgb(203, 228, 222);
+  --secondary-fg-color : white;
+  --primary-box-shadow  :   rgba(203, 228, 222, 0.4) -5px 5px, rgba(203, 228, 222, 0.3) -10px 10px, rgba(203, 228, 222, 0.2) -15px 15px, rgba(203, 228, 222, 0.1) -20px 20px, rgba(203, 228, 222, 0.05) -25px 25px;
+  --secondary-box-shadow : rgba(203, 228, 222, 0.2) -5px 5px, rgba(203, 228, 222, 0.1) -10px 10px;
 }
 body{
   background-color: var(--primary-bg-color);

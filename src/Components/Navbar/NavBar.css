@@ -19,15 +19,16 @@ a{
 }
 
 .active{
-    color: red ;
+    color: black !important ;
     transform:scale(10px);
     border-bottom: 2px solid var(--secondary-fg-color);
-    background-color: var(--primary-bg-color);
+    background-color: var(--tertiary-bg-color);
     border-radius: 10px;
     transition-duration:0.6s;
+    box-shadow: var(--secondary-box-shadow);
 }
 .active:hover{
-    background-color: var(--primary-bg-color);
+    background-color: var(--tertiary-bg-color);
 }
 .drawer__container{
     width: 70vw;
