@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 :root{
   --primary-bg-color : rgb(44, 51, 51);
   /* --secondary-bg-color : linear-gradient(135deg, rgb(203, 228, 222) 0%, rgb(203, 228, 222) 100%); */
@@ -16,4 +19,5 @@
 body{
   background-color: var(--primary-bg-color);
   color: var(--primary-fg-color);
+  font-family: 'Martian Mono', monospace;
 }

@@ -23,7 +23,7 @@ const Navbar = () => {
   const pages = [
     { name: "Home", path: "/" },
     { name: "About", path: "About" },
-    { name: "Wroks", path: "Works" },
+    { name: "Works", path: "Works" },
     { name: "Contact", path: "Contact" },
   ];
   const [drawerState, setDrawerState] = useState(false);
