@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 .about__container {
-  height: 100vh;
-  min-width: 100vw;
+  min-width: 100%;
+  height: 99vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -13,6 +13,7 @@
   border-radius: 20%;
   background: var(--secondary-bg-color);
   box-shadow: var(--primary-box-shadow);
+  margin-top: 50px;
 }
 .about__right {
   width: clamp(300px, 80vw, 600px);
@@ -38,6 +39,6 @@
 @media screen and (max-width: 900px) {
     .about__container{
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 150px;
     }
   }
