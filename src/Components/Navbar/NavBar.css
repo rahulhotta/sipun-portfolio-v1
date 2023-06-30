@@ -11,24 +11,20 @@ a{
     padding: 4px 10px ;
     
 }
-.MuiButtonBase-root{
-}
+
 .navlink__container{
-    color: black;
     padding: 4px 10px !important;
 }
 
 .active{
-    color: black !important ;
     transform:scale(10px);
-    /* border-bottom: 2px solid var(--secondary-fg-color); */
-    background-color: var(--tertiary-bg-color);
+    background: var(--tertiary-bg-color);
     border-radius: 10px;
     transition-duration:0.6s;
     box-shadow: var(--secondary-box-shadow);
 }
 .active:hover{
-    background-color: var(--tertiary-bg-color);
+    background: var(--tertiary-bg-color);
 }
 .drawer__container{
     width: 70vw;
@@ -41,7 +37,7 @@ a{
 }
 
     .navbar__navLink{
-        color: var(--secondary-fg-color);
+        color: var(--primary-fg-color);
         font-size: 0.9rem;
         font-weight:700;
         padding: 10px 20px;

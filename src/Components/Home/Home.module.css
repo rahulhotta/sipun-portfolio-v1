@@ -14,7 +14,10 @@
   width: 200px;
 } */
 .home__name {
-  color: var(--tertiary-bg-color);
+  /* color: var(--secondary-bg-color); */
+  background:var(--secondary-fg-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Martian Mono', monospace;
 }
 .home__left {
@@ -41,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--tertiary-bg-color);
+  background: var(--tertiary-bg-color);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -52,7 +55,7 @@
   cursor: pointer;
 }
 .home__icon_button:hover {
-  background-color: var(--primary-bg-color);
+  background: var(--primary-bg-color);
   border: 2px solid var(--primary-fg-color);
   color: var(--primary-fg-color);
 }

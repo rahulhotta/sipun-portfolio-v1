@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+.about__container {
+  height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Signika", sans-serif;
+}
+.about__img {
+  width: clamp(200px, 70vw, 300px);
+  height: 300px;
+  border-radius: 20%;
+  background: var(--secondary-bg-color);
+  box-shadow: var(--primary-box-shadow);
+}
+.about__right {
+  width: clamp(300px, 80vw, 600px);
+  line-height: 1.5;
+}
+.about__heading {
+    margin-top: 20px;
+  background: var(--secondary-fg-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.skills__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 900px) {
+    .about__container{
+        flex-direction: column;
+        padding-top: 100px;
+    }
+  }
