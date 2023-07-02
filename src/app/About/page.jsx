@@ -16,7 +16,7 @@ import appium from '../../Assets/skill-logos/Appium.png'
 import jenkins from '../../Assets/skill-logos/jenkins.png'
 import rpa from '../../Assets/skill-logos/rpa.png'
 import jira from '../../Assets/skill-logos/jira.png'
-import java from '../../Assets/skill-logos/java.png'
+import java from '../../Assets/skill-logos/Java.png'
 import testng from '../../Assets/skill-logos/testng.png'
 import blazemeter from '../../Assets/skill-logos/blazemeter.png'
 
