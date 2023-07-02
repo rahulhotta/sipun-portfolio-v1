@@ -8,7 +8,7 @@
     margin: 10px;
     box-shadow: var(--secondary-box-shadow);
     color: var(--primary-fg-color);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
 }
 
@@ -17,4 +17,10 @@
     border: 2px solid var(--primary-fg-color);
     color: var(--primary-fg-color);
 
+}
+
+.ui__button_text_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

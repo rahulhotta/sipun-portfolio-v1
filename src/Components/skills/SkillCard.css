@@ -1,0 +1,17 @@
+.skill__card__container {
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: var(--secondary-box-shadow);
+  background: var(--secondary-bg-color);
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.skill__card__icon {
+   width: 40px;
+   height: 40px;
+}

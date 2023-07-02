@@ -1,7 +1,0 @@
-.skill__card__container{
-    padding: 10px 20px;
-    border-radius: 10px;
-    box-shadow: var(--secondary-box-shadow);
-    background: var(--secondary-bg-color);
-    width: clamp(80px,100px,200px)
-}
