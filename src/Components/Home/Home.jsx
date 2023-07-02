@@ -3,8 +3,6 @@ import styles from './Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Lottie from 'lottie-react';
-import useDownloader from 'react-use-downloader';
-import HelloGif from '../../Assets/hello2-unscreen.gif';
 import helloAnimation from '../../Assets/Animations/hello-animation2.json';
 import homeImage from '../../Assets/home_image.png';
 import {
@@ -62,7 +60,7 @@ function Home() {
 
         <Button>
           <Link href="About" className={styles.home__link}>
-            About <AiOutlineArrowRight className={styles.home__btn_icon}/>
+            About <AiOutlineArrowRight className={styles.home__btn_icon} />
           </Link>
         </Button>
       </div>
