@@ -3,7 +3,7 @@ import styles from './Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Lottie from 'lottie-react';
-import helloAnimation from '../../Assets/Animations/hello-animation2.json';
+import helloAnimation from '../../Assets/animations/hello-animation2.json';
 import homeImage from '../../Assets/home_image.png';
 import {
   AiFillLinkedin,
