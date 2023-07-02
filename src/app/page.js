@@ -1,6 +1,6 @@
 'use client';
 import Navbar from '../Components/navigation/Navbar';
-import HomePage from '@/Components/home/Home';
+import HomePage from '@/Components/home/home';
 import styles from './page.module.css';
 
 export default function Home() {
