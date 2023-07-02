@@ -8,7 +8,7 @@ import { FaJava, FaGitSquare } from 'react-icons/fa';
 import { TbSql } from 'react-icons/tb';
 import { AiFillHtml5, AiFillGitlab } from 'react-icons/ai';
 import { SiSelenium, SiJira, SiBlazemeter } from 'react-icons/si';
-import jmeter from '../../Assets/skill-logos/jmeter.png';
+import jmeter from '../../Assets/skill-logos/Jmeter.png';
 import selenium from '../../Assets/skill-logos/selenium.png'
 import sql from '../../Assets/skill-logos/sql.png'
 import git from '../../Assets/skill-logos/git.png'
