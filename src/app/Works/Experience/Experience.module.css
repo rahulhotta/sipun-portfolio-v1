@@ -1,0 +1,16 @@
+.experience__container{
+    display: flex;
+    /* padding-top: 550px; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: clamp(300px, 80vw, 800px);
+    flex-direction: column;
+    height: 60vh;
+    overflow-y: scroll;
+    gap: 20px;
+    
+}
+.experience__card{
+    border-bottom: 2px solid black;
+    padding: 20px;
+}

@@ -2,16 +2,27 @@
     min-height:100vh ;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
 
 }
 .works__page_img{
     /* mix-blend-mode:multiply; */
-    height: clamp(300px,80vw,500px);
-    width: clamp(300px,80vw,600px);
+    height: clamp(300px,80vw,300px);
+    width: clamp(300px,80vw,400px);
     border-radius: 20%;
     margin: 20px;
 }
+.works__page_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.works__page_label_container{
+    display: flex;
+}
+
 .works__page__label{
     cursor: pointer;
     border: 2px solid var(--primary-fg-color);
