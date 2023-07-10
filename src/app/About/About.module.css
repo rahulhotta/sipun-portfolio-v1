@@ -15,6 +15,7 @@
   background: var(--secondary-bg-color);
   box-shadow: var(--primary-box-shadow);
   margin-top: 50px;
+
 }
 .about__right {
   width: clamp(300px, 80vw, 600px);
@@ -44,6 +45,6 @@
         padding-top: 150px;
     }
     .about__img{
-      margin-top: 400px;
+      margin-top: 500px !important;
     }
   }
