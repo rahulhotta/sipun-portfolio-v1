@@ -21,12 +21,12 @@
 }
 .works__page_label_container{
     display: flex;
+    width: clamp(200px,60vw,600px);
 }
 
 .works__page__label{
     cursor: pointer;
     border: 2px solid var(--primary-fg-color);
-
     padding: 10px 20px;
     border-radius: 10px;
     margin: 10px;
@@ -37,4 +37,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-color: var(--secondary-bg-color) !important;
+}
+
+@media screen and (max-width: 980px) {
+    .works__page_img{
+        display: none;
+    }
+    .works__page_label_container{
+        align-items: center;
+        justify-content: center;
+    }
 }
