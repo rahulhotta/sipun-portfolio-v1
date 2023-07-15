@@ -58,14 +58,17 @@ function Home() {
           in quality and design improvement of applications.
         </p>
 
-        {/* <a href="Assets/Biswa_resume.pdf" download>
+        <a
+          href="https://drive.google.com/uc?export=download&id=1eQK5i4v--ujKhxHUn0JRkvOmSkatKgtu"
+          download
+        >
           <Button>
             Resume <AiOutlineDownload />
           </Button>
-        </a> */}
-        <Button onClick={handleDownload}>
+        </a>
+        {/* <Button onClick={handleDownload}>
           Resume <AiOutlineDownload />
-        </Button>
+        </Button> */}
 
         <Button>
           <Link href="About" className={styles.home__link}>
