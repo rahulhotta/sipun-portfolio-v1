@@ -9,27 +9,28 @@ import { TbSql } from 'react-icons/tb';
 import { AiFillHtml5, AiFillGitlab } from 'react-icons/ai';
 import { SiSelenium, SiJira, SiBlazemeter } from 'react-icons/si';
 import jmeter from '../../Assets/skill-logos/Jmeter.png';
-import selenium from '../../Assets/skill-logos/selenium.png'
-import sql from '../../Assets/skill-logos/sql.png'
-import git from '../../Assets/skill-logos/git.png'
-import appium from '../../Assets/skill-logos/Appium.png'
-import jenkins from '../../Assets/skill-logos/jenkins.png'
-import rpa from '../../Assets/skill-logos/rpa.png'
-import jira from '../../Assets/skill-logos/jira.png'
-import java from '../../Assets/skill-logos/Java.png'
-import testng from '../../Assets/skill-logos/testng.png'
-import blazemeter from '../../Assets/skill-logos/blazemeter.png'
-
+import selenium from '../../Assets/skill-logos/selenium.png';
+import sql from '../../Assets/skill-logos/sql.png';
+import git from '../../Assets/skill-logos/git.png';
+import appium from '../../Assets/skill-logos/Appium.png';
+import jenkins from '../../Assets/skill-logos/jenkins.png';
+import rpa from '../../Assets/skill-logos/rpa.png';
+import jira from '../../Assets/skill-logos/jira.png';
+import java from '../../Assets/skill-logos/Java.png';
+import testng from '../../Assets/skill-logos/testng.png';
+import blazemeter from '../../Assets/skill-logos/blazemeter.png';
+import playwright from '../../Assets/skill-logos/playwright-logo.svg';
+import restAssured from '../../Assets/skill-logos/rest-assured.png'
 function page() {
   const skill_list = [
     {
       icon: java,
       skill: 'JAVA'
     },
-    {
-      icon: sql,
-      skill: 'SQL'
-    },
+    // {
+    //   icon: sql,
+    //   skill: 'SQL'
+    // },
     {
       icon: appium,
       skill: 'Appium'
@@ -66,6 +67,14 @@ function page() {
       icon: rpa,
       skill: 'RPA'
     },
+    {
+      icon: playwright,
+      skill: 'Playwright'
+    },
+    {
+      icon: restAssured,
+      skill: 'Rest Assured'
+    }
   ];
   return (
     <>
@@ -80,12 +89,11 @@ function page() {
         <div className={styles.about__right}>
           <div className={styles.about__about_me}>
             <h1 className={styles.about__heading}>About Me</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur consectetur totam earum harum ratione. Ipsam iusto
-              saepe repellat dolorem, dicta nihil quos commodi! Adipisci fugit
-              praesentium distinctio! Optio deserunt, eveniet reprehenderit quos
-              aut rem.
+            <p className={styles.about__desc}>
+              Over 7+ years of IT experience in both large MNC organization and
+              startup company with over 3 years of experience in web-based and
+              Mobile application(Android and IOS) testing and automation using
+              Selenium, testNG and Appium in Java language.
             </p>
           </div>
           <div className={styles.about__skills}>

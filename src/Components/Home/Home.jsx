@@ -4,7 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Lottie from 'lottie-react';
 import helloAnimation from '../../Assets/animations/hello-animation2.json';
-import homeImage from '../../Assets/home_image.png';
+import homeImage from '../../Assets/sipun_image-removebg.png';
+import { useRouter } from 'next/router';
 import {
   AiFillLinkedin,
   AiFillFacebook,
@@ -18,6 +19,11 @@ import { BsFacebook } from 'react-icons/bs';
 import Button from '../UI/Button/Button';
 
 function Home() {
+  const handleDownload = () => {
+    const router = useRouter();
+    const fileUrl = '../../Assets/Biswa_resume.pdf';
+    router.push(fileUrl);
+  };
   return (
     <div className={styles.home__container}>
       <Image
@@ -45,18 +51,21 @@ function Home() {
         </h1>
         <h1 className={styles.home__name}>Biswa Bhusan Mishra</h1>
         <h1>Automation Engineer</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas
-          adipisci excepturi molestias asperiores fuga nemo, eum quos vero vel
-          tenetur dolorem ea quod sit voluptates incidunt necessitatibus quidem?
-          Eaque possimus nam commodi exercitationem?
+        <p className={styles.home__desc}>
+          Result focused and customer oriented Senior SDET with professional
+          expertise in designing test strategy, test planning, estimation,
+          leading testing effort for large/complex projects, also contributing
+          in quality and design improvement of applications.
         </p>
 
-        <a href="assets/Biswa_resume.pdf" download>
+        {/* <a href="Assets/Biswa_resume.pdf" download>
           <Button>
             Resume <AiOutlineDownload />
           </Button>
-        </a>
+        </a> */}
+        <Button onClick={handleDownload}>
+          Resume <AiOutlineDownload />
+        </Button>
 
         <Button>
           <Link href="About" className={styles.home__link}>

@@ -6,7 +6,7 @@ const company = [
     name: "GOJEK",
     duration: "NOV 2021 - PRESENT",
     role: "Senior SDET",
-    skillsInvolved: ["Api automation", "feature designing", "Test case authoring", "Functional Integration", "Performance Testing","Load Testing","Stress Testing"],
+    skillsInvolved: ["Api automation", "feature designing", "Test case authoring", "Mobile app automation", "Web app automation",  "Performance Testing","cloud automation"],
   },
   {
     name: "Automation Anywhere",
@@ -30,7 +30,7 @@ const company = [
     name: "Phonton Interactive Pvt Ltd",
     duration: "JUNE 2014 - DEC 2015",
     role: "QA Engineer",
-    skillsInvolved: ["nothing"],
+    skillsInvolved: ["Mobile app testing(Android, IOS)", "Load testing", "Web automation(Selenium)", "CI CD deployment"],
   },
 ];
 

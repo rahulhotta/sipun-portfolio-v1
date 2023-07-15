@@ -16,16 +16,13 @@ header {
   background-color: var(--secondary-bg-color);
   position: fixed;
   width: 100dvw;
-  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 10px 10px 8px #1a1a1a;
   margin-bottom: 10px;
-
-
-  
 }
 
 nav a {
   margin: 0 1rem;
-  color: var(--primary-fg-color);
+  color: var(--text-color);
   text-decoration: none;
   padding: 5px 10px;
 }
@@ -36,7 +33,7 @@ header .nav-btn {
   background: transparent;
   border: none;
   outline: none;
-  color: var(--primary-fg-color);
+  color: var(--text-color);
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
@@ -57,6 +54,12 @@ nav {
 }
 .active:hover {
   background: var(--tertiary-bg-color);
+}
+.nav_logo {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 1024px) {

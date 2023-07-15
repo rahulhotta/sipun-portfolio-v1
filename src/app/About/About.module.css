@@ -29,6 +29,13 @@
   text-align: center;
   font-size: 2.5rem;
 }
+.about__desc{
+  width: clamp(300px,80vw,600px) ;
+  padding: 10px 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  text-align: center;
+}
 .skills__container{
     display: flex;
     align-items: center;

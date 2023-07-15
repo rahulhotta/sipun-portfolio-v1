@@ -4,6 +4,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavBar.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import logo from '../../Assets/Nav-logo.png';
+import Image from "next/image";
 
 function Navbar() {
   const navRef = useRef();
@@ -20,7 +22,7 @@ function Navbar() {
   ];
   return (
     <header>
-      <h3>LOGO</h3>
+      <Image src={logo} className="nav_logo" />
       <nav ref={navRef}>
         <div className="drawer__container">
           {pages.map((page) => (

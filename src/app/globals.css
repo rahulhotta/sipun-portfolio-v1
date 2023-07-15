@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 * {
   margin: 0;
@@ -11,25 +11,25 @@
   /* --primary-bg-color : rgb(44, 51, 51);
   --secondary-bg-color : rgb(46, 79, 79);
   --tertiary-bg-color :  linear-gradient(15deg, #01466d 0%, #50b1a6 100%);
-  --primary-fg-color : rgb(203, 228, 222);
+  --primary-fg-color : rgb(56, 112, 101);
   --secondary-fg-color : linear-gradient(15deg, #1e75a7 0%, #80d0c7 100%);
-  --primary-box-shadow  :   rgba(203, 228, 222, 0.4) -5px 5px, rgba(203, 228, 222, 0.3) -10px 10px, rgba(203, 228, 222, 0.2) -15px 15px, rgba(203, 228, 222, 0.1) -20px 20px, rgba(203, 228, 222, 0.05) -25px 25px;
-  --secondary-box-shadow : rgba(203, 228, 222, 0.2) -5px 5px, rgba(203, 228, 222, 0.1) -10px 10px; */
-  --primary-bg-color: #d9f7f0;
-  --secondary-bg-color: #00c9a7;
-  --tertiary-bg-color: linear-gradient(-45deg,#5ebfd4, #d089ff );
+  --primary-box-shadow  :   rgba(56, 112, 101, 0.4) -5px 5px, rgba(56, 112, 101, 0.3) -10px 10px, rgba(56, 112, 101, 0.2) -15px 15px, rgba(56, 112, 101, 0.1) -20px 20px, rgba(56, 112, 101, 0.05) -25px 25px;
+  --secondary-box-shadow : rgba(56, 112, 101, 0.2) -5px 5px, rgba(56, 112, 101, 0.1) -10px 10px; */
+  --primary-bg-color: #070e09;
+  --secondary-bg-color: #1a2b33;
+  --text-color: #ebf5ee;
+  --tertiary-bg-color: rgb(56, 112, 101);
   --primary-fg-color: black;
-  --secondary-fg-color:  linear-gradient(315deg,#1fd1f9, #00728b, #b621fe );
-  ;
-  
-  --primary-box-shadow: rgba(203, 228, 222, 0.4) -5px 5px,
-    rgba(203, 228, 222, 0.3) -10px 10px, rgba(203, 228, 222, 0.2) -15px 15px,
-    rgba(203, 228, 222, 0.1) -20px 20px, rgba(203, 228, 222, 0.05) -25px 25px;
-  --secondary-box-shadow: rgba(130, 102, 255, 0.2) -5px 5px,
-    rgba(101, 19, 255, 0.1) -10px 10px;
+  --secondary-fg-color: #669bb2;
+  /* --secondary-fg-color: red; */
+  --primary-box-shadow: rgba(56, 112, 101, 0.4) -5px 5px,
+    rgba(56, 112, 101, 0.3) -10px 10px, rgba(56, 112, 101, 0.2) -15px 15px,
+    rgba(56, 112, 101, 0.1) -20px 20px, rgba(56, 112, 101, 0.05) -25px 25px;
+  --secondary-box-shadow: rgba(56, 112, 101, 0.4) -5px 5px,
+    rgba(56, 112, 101, 0.2) -10px 10px;
 }
 body {
   background-color: var(--primary-bg-color);
-  color: var(--primary-fg-color);
-  font-family: "Signika", sans-serif;
+  color: var(--text-color);
+  font-family: 'Signika', sans-serif;
 }
