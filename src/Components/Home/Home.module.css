@@ -18,9 +18,7 @@
   align-items: flex-end;
 }
 .home__tester__image {
-  /* mix-blend-mode:multiply; */
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+
   width: clamp(300px, 80vw, 600px);
 }
 .home__animation {

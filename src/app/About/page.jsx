@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../Components/navigation/Navbar';
 import styles from './About.module.css';
 import Image from 'next/image';
-import about_image from '../../Assets/About_img-removebg-preview.png';
+import about_image from '../../Assets/about_image-removebg.png';
 import SkillCard from '@/Components/skills/SkillCard';
 import { FaJava, FaGitSquare } from 'react-icons/fa';
 import { TbSql } from 'react-icons/tb';

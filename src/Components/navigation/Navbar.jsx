@@ -18,7 +18,7 @@ function Navbar() {
     { name: "Home", path: "/" },
     { name: "About", path: "About" },
     { name: "Works", path: "Works" },
-    { name: "Contact", path: "Contact" },
+    // { name: "Contact", path: "Contact" },
   ];
   return (
     <header>

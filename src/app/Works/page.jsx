@@ -4,7 +4,8 @@ import Navbar from "../../Components/navigation/Navbar";
 import styles from "./Works.module.css";
 import Experience from "./Experience/Experience";
 import Education from "./Education/Education";
-
+import Image from "next/image";
+import works_image from '../../Assets/works_image-removebg.png'
 function page() {
   const [worksContent, setWorksContent] = useState(true);
   console.log(worksContent);
@@ -15,10 +16,11 @@ function page() {
     <>
       <Navbar />
       <div className={styles.works__page_container}>
-        <img
+        {/* <img
           src="https://i.pinimg.com/originals/91/16/8b/91168b4873f6659b3e9fdfe4b89cd864.gif"
           className={styles.works__page_img}
-        />
+        /> */}
+        <Image src={works_image} className={styles.works__page_img}/>
         <div className={styles.works__page_right}>
           <div className={styles.works__page_label_container}>
             <h1
