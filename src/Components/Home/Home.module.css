@@ -18,7 +18,7 @@
   align-items: flex-end;
 }
 .home__tester__image {
-
+  /* mix-blend-mode:lighten; */
   width: clamp(300px, 80vw, 600px);
 }
 .home__animation {

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Lottie from 'lottie-react';
 import helloAnimation from '../../Assets/animations/hello-animation2.json';
 import homeImage from '../../Assets/home_image-removebg.png';
+// import homeImage from '../../Assets/home_image-removebg-preview.png';
 import { useRouter } from 'next/router';
 import {
   AiFillLinkedin,
