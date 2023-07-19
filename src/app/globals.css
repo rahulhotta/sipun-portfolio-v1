@@ -29,13 +29,7 @@
   --secondary-box-shadow: rgba(56, 112, 101, 0.4) -5px 5px,
     rgba(56, 112, 101, 0.2) -10px 10px; */
 
-  --primary-bg-color: linear-gradient(
-    to right top,
-    #051937,
-    #002b43,
-    #003a3e,
-    #09462f
-  );
+  --primary-bg-color: rgb(6, 6, 34);
   --secondary-bg-color: #1a2b33;
   --text-color: #ebf5ee;
   --tertiary-bg-color: rgb(56, 112, 101);
