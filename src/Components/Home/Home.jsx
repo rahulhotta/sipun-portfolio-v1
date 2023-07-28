@@ -1,12 +1,12 @@
-import React from 'react';
-import styles from './Home.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
-import Lottie from 'lottie-react';
-import helloAnimation from '../../Assets/animations/hello-animation2.json';
-import homeImage from '../../Assets/home_image-removebg.png';
+import React from "react";
+import styles from "./Home.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import Lottie from "lottie-react";
+import helloAnimation from "../../Assets/animations/hello-animation2.json";
+import homeImage from "../../Assets/home_image-removebg.png";
 // import homeImage from '../../Assets/home_image-removebg-preview.png';
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 import {
   AiFillLinkedin,
   AiFillFacebook,
@@ -14,15 +14,16 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiOutlineDownload,
-  AiOutlineArrowRight
-} from 'react-icons/ai';
-import { BsFacebook } from 'react-icons/bs';
-import Button from '../UI/Button/Button';
+  AiOutlineArrowRight,
+  AiFillYoutube,
+} from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
+import Button from "../UI/Button/Button";
 
 function Home() {
   const handleDownload = () => {
     const router = useRouter();
-    const fileUrl = '../../Assets/Biswa_resume.pdf';
+    const fileUrl = "../../Assets/Biswa_resume.pdf";
     router.push(fileUrl);
   };
   return (
@@ -78,18 +79,19 @@ function Home() {
         </Button>
       </div>
       <div className={styles.home__right}>
-        <button className={styles.home__icon_button}>
-          <AiFillLinkedin />
-        </button>
-        <button className={styles.home__icon_button}>
-          <BsFacebook />
-        </button>
-        <button className={styles.home__icon_button}>
-          <AiFillInstagram />
-        </button>
-        <button className={styles.home__icon_button}>
-          <AiFillTwitterCircle />
-        </button>
+        <a
+          href="https://www.linkedin.com/in/biswa-mishra-90750421a/"
+          target="_blank"
+        >
+          <button className={styles.home__icon_button}>
+            <AiFillLinkedin />
+          </button>
+        </a>
+        <a href="https://www.youtube.com/@automationpathsala" target="_blank">
+          <button className={styles.home__icon_button}>
+            <AiFillYoutube />
+          </button>
+        </a>
         <button className={styles.home__icon_button}>
           <AiFillGithub />
         </button>

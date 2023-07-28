@@ -1,7 +1,7 @@
 .experience__container{
     display: flex;
     /* padding-top: 550px; */
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     width: clamp(300px, 80vw, 800px);
     flex-direction: column;

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Navbar from "../../Components/navigation/Navbar";
 import styles from "./Works.module.css";
 import Experience from "./Experience/Experience";
-import Education from "./Education/Education";
+import Education from "./Blogs/Blogs";
 import Image from "next/image";
 import works_image from '../../Assets/works_image-removebg.png'
 function page() {
@@ -46,7 +46,7 @@ function page() {
                 toggleWorksContent(false);
               }}
             >
-              Education
+              Blogs
             </h1>
           </div>
           <div className={styles.works__page_right_content}>

@@ -21,7 +21,8 @@
 }
 .works__page_label_container{
     display: flex;
-    width: clamp(200px,60vw,600px);
+    width: clamp(300px, 80vw, 800px);
+    justify-content: center;
 }
 
 .works__page__label{
