@@ -20,6 +20,7 @@
 .home__tester__image {
   /* mix-blend-mode:lighten; */
   width: clamp(300px, 80vw, 600px);
+  padding-top: 15px;
 }
 .home__animation {
   align-self: flex-start;

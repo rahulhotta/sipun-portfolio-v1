@@ -2,7 +2,6 @@
   display: flex;
   /* padding-top: 550px; */
   align-items: center;
-  padding-left: 100px;
   justify-content: flex-start;
   width: clamp(300px, 80vw, 800px);
   flex-direction: column;
@@ -14,15 +13,14 @@
   padding: 20px;
   text-decoration: none;
 }
-.blogs__image{
-  width: clamp(200px, 80vw, 400px);
+.blogs__image {
+  width: clamp(150px, 70vw, 400px);
   max-height: 250px;
 }
-.blog__name{
+.blog__name {
   color: white;
   text-align: center;
 }
-
 
 @media screen and (max-width: 980px) {
   .blogs__container {
