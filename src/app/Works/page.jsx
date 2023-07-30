@@ -14,7 +14,7 @@ function page() {
   };
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={styles.works__page_container}>
         {/* <img
           src="https://i.pinimg.com/originals/91/16/8b/91168b4873f6659b3e9fdfe4b89cd864.gif"

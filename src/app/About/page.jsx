@@ -81,7 +81,7 @@ function page() {
   ];
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={styles.about__container}>
         <Image
           src={about_image}
