@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavBar.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import logo from '../../Assets/Nav-logo.png';
+import logo from "../../Assets/Nav-logo.png";
 import Image from "next/image";
 
 function Navbar() {
@@ -35,6 +35,7 @@ function Navbar() {
                   ? "active"
                   : ""
               }
+              onClick={showNavbar}
             >
               <Link href={page.path} className="navbar__navLink">
                 {page.name}
